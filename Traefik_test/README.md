@@ -40,3 +40,4 @@ docker-compose up #start server, in Win10 use 'docker-compose up -d'
 3. 'docker-compose up' to start all servers
 4. Check: localhost:8080 will see traefik dashboard. Refresh '127.0.0.1' to see queries are balanced between load1 and load2.
 5. control + c to stop services.
+Note: 127.0.0.1 is specified in docker-compose.yml, and in index.js (0.0.0.0) is added so that 127.0.0.1 is binded.
