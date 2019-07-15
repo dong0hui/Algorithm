@@ -11,6 +11,7 @@ This folder is used to test traefik load balancer.
 4. Install Visual Studio Codes (also "Control+Shift+P" to install code to $PATH, so that in shell "code ." will start VS codes)
 
 # Commands
+In Terminal, initiate .git folder and package.json file
 ```
 git init
 npm init -y #this will create package.json
