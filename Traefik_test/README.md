@@ -33,3 +33,10 @@ docker-compose rm -f #rm old images
 docker-compose build #build images
 docker-compose up #start server, in Win10 use 'docker-compose up -d'
 ```
+
+# Run codes
+1. 'docker-compose rm -f' to clean the images
+2. 'docker-compose build' to build images
+3. 'docker-compose up' to start all servers
+4. Check: localhost:8080 will see traefik dashboard. Refresh '127.0.0.1' to see queries are balanced between load1 and load2.
+5. control + c to stop services.
