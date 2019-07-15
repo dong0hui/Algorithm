@@ -22,7 +22,8 @@ Later I use Terminal in VS codes
 npm add fastify #Install fastify which has socket module for chat app
 node index.js #to start index.js
 
+docker pull traefik:latest #pull load balancer image.
 docker-compose rm -f #rm old images
 docker-compose build #build images
-docker-compose up #start server
+docker-compose up #start server, in Win10 use 'docker-compose up -d'
 ```
